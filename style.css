@@ -835,3 +835,29 @@ height: 100vh;
     height: 42vh;
 }
   }
+
+  @media(min-width:360px ) and (max-width:395px){
+
+.topHero {
+        font-size: 107%;
+        margin-top: 2%;
+    }
+
+.heroContainer {
+        display: flex;
+        width: 100vw;
+        height: 104vh;
+        flex-direction: column;
+    }
+
+.section1H3-2 {
+    font-size: 70%;
+    margin-left: 51%;
+    margin-top: 4%;
+}
+
+.HireMe {
+    font-size: 138%;
+}
+
+  }
