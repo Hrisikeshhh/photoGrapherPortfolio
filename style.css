@@ -843,6 +843,10 @@ height: 100vh;
         margin-top: 2%;
     }
 
+    .downHero {
+        margin-top: 5%;
+    }
+
 .heroContainer {
         display: flex;
         width: 100vw;
