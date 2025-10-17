@@ -1,0 +1,837 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: #f4f4f0;
+}
+
+nav{
+   display: flex;
+   height: 10vh;
+}
+
+.leftNav{
+    width: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Irish Grover',cursive;
+    font-size: 261%;
+    background-image: url(websitePic/section1Girl.png);
+}
+
+.rightNav{
+ width: 64%;
+ align-items: center;
+ display: flex;
+ font-size: 105%;
+ background-image: url(websitePic/section1Girl.png);
+ font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+ box-shadow: 3px 15px 65px #b0a898;
+}
+
+.navigationItems{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navigationItems a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.heroContainer{
+  display: flex;
+  width: 100%;
+  height: 90vh;
+}
+
+.leftHero{
+  height: 90vh;
+  width: 36%;
+  background-image: url(websitePic/section1Girl.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.topHero{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Irish Grover',cursive;
+    font-size: 260%;
+}
+
+.downHero{
+    height: 40%;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    font-family: 'Irish Grover',cursive;
+}
+
+.section1H3-1{
+    color: rgb(137, 134, 134);
+}
+
+.section1H3-2{
+  font-size: 55%;
+  margin-left: 51%;
+  margin-top: 15%;
+}
+.HireMe{
+    font-family: 'Irish Grover', cursive;
+    padding: 1%;
+    font-size: 184%;
+    border-radius: 11px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.HireMe:hover{
+    background-color: #655555;
+}
+
+.rightHero{
+  width: 50%;
+}
+
+.clientProjectsCounts{
+    height: 50vh;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerCounts{
+    height: 85%;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.countBox{
+     font-family: 'Irish Grover', cursive;
+    color: black;
+  /* border: 2px solid rgb(175, 127, 221); */
+    width: 29%;
+    height: 89%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 21px;
+}
+
+.header{
+        font-size: 210%;
+        margin-top: 2%;
+}
+
+#ProjectDone{
+font-size: 700%;
+}
+
+#happyClientServed{
+font-size: 700%;     
+}
+
+#creativeDesignDelivered{
+font-size: 700%;     
+}
+
+              /* section2 */
+
+.aboutMeContainer{
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.para{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2MainPara{
+   height: 63%;
+   width: 80%;
+   background-color: #e2ded7;
+   border-radius: 26px;
+   font-family: 'Irish Grover', cursive;
+}
+
+.section2MainPara p{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 7%;
+    font-size: 115%;
+}
+
+.paraH{
+   font-family: 'Irish Grover',cursive;
+   margin-top: 14%;
+   width: 80%;
+   font-size: 270%
+}
+
+.workBtn{
+     font-family: 'Irish Grover',cursive;
+     margin: 9% 8%;
+     padding: 2%;
+     font-size: 158%;
+     background-color: black;
+     color: white;
+     border-radius: 14px;
+}
+
+.workBtn:hover{
+     font-family: 'Irish Grover',cursive;
+     margin: 9% 8%;
+     padding: 2%;
+     font-size: 158%;
+    background-color: #655555;
+    transition: 0.2s ease;
+     color: white;
+     border-radius: 14px;
+}
+
+.pic{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.photo{
+    width: 80%;
+    height: 69%;
+    background-image: url(websitePic/aboutMepic.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+
+
+/* third section */
+
+.section3h1-1{
+ margin: 0% 6%;
+ font-family: 'Irish Grover',cursive;
+ font-size: 250%;
+ text-align: center;
+}
+
+.leftArow{
+    text-align: end;
+    width: 80%;
+    margin: auto;
+    font-size: 409%;
+    cursor: pointer;
+}
+
+.galleryPhotos{
+    height: 80vh;
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 29px;
+    background-color: #ddd8d8;
+    grid-auto-rows: 43%;
+    grid-gap: 29px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 100%;
+    height: 95%;
+    border-radius: 20px;
+}
+
+.pic1{
+    background-image: url(websitePic/aboutMepic.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pic2{
+    background-image: url(websitePic/section1Girl.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pic3{
+    background-image: url(websitePic/jpg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pic4{
+    background-image: url(websitePic/tower.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pic5{
+    background-image: url(websitePic/me4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pic6{
+    background-image: url(websitePic/chicken.png);
+     background-size: cover;
+    background-position: center;
+}
+
+
+/* section4 */
+
+.section4H1-1{
+    width: 80%;
+    margin: auto;
+    margin-top: 8%;
+    font-family: 'Irish Grover',cursive;
+    font-size: 250%;
+}
+
+.ReviewContainer{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    border-radius: 21px;
+    background-color: #e2ded7;
+    display: flex;
+    justify-content: center;
+}
+.reviewBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.leftReview{
+   width: 50%;
+   height: 100%;
+   display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clientPic{
+    width: 50%;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    height: 37%;
+    border-radius: 50%;
+}
+
+
+
+.clientName{
+    width: 70%;
+    height: 10%;
+    margin-top: 5%;
+    font-size: 108%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stars{
+    margin-top: 24%;
+    width: 64%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightReview{
+  height: 100%;
+  width: 50%;
+}
+
+.mainReviewPara{
+    width: 90%;
+    font-size: 78%;
+    margin: auto;
+    font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+    margin-top: 30%;
+}
+
+       /* swiper */
+
+.swiper-container {
+        width: 550px;
+        height: 380px;
+        padding: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        background-color: #e4e4e3;
+        width: 550px;
+        height: 380px;
+        border-radius: 16px;
+        display: flex;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+.section5h1-1{
+      font-family: 'Irish Grover',cursive;
+      width: 80%;
+      margin: auto;
+      margin-top: 8%;
+}
+
+.faqContainer{
+    width: 80%;
+    margin: auto;
+}
+
+details{
+    font-size: 140%;
+    font-family: 'Irish Grover',cursive;
+    padding: 3% 1%;
+    
+}
+
+details p{
+    font-size: 80%;
+    padding: 2% 0%;
+}
+
+ /* section6 */
+.section6h1-1{
+width: 80%;
+font-family: 'Irish Grover',cursive;
+margin:auto;
+margin-top: 8%;
+}
+
+.contactContainer{
+    width: 80%;
+    margin: auto;
+    height: 65vh;
+     background-color: #a1a19d;
+     font-family: 'Irish Grover',cursive;
+     margin-bottom: 15%;
+     display: flow-root;
+}
+
+.section6p-1{ 
+   font-family: 'Irish Grover', cursive;
+    font-size: 150%;
+    margin: 9% 3%;
+}
+
+.contactInnerContainer{
+   width: 95%;
+   margin: auto;
+   height: 95%;
+   display: flex;
+}
+
+.form{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-evenly;
+
+}
+
+#email{
+    padding: 1%;
+    width: 45%;
+    background-color: #a1a19d;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.leftShift{
+   margin-left: 15%;
+}
+
+#submitBtn{
+    width: 20%;
+    padding: 1%;
+    font-size: 85%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+#msg{
+  background-color: #a1a19d;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.picMan{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainPic{
+   width: 75%;
+   height: 95%;
+   background-image: url(websitePic/manWithCamera.png);
+   background-size: cover;
+   background-position: center;
+   border-radius: 14px;
+}
+
+
+
+footer{
+  height: 50vh;
+  background-color: #dcdcd4;
+  font-size: 80%;
+}
+
+.upNav{
+  height: 80%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footerBox{
+ height: 80%;
+ width: 20%;
+ font-size: 114%;
+ color: gray;
+ align-content: center;
+}
+
+.footerLi{
+    display: flex;
+    flex-direction: column;
+    height: 76%;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(2,0.2fr);
+    grid-auto-rows: 19%;
+    grid-auto-columns: 20%;
+    gap: 20px;
+
+}
+
+.icon{
+    border-radius: 8px;
+}
+
+.symbol{
+      font-size: 195%;
+      cursor: pointer;
+}
+
+
+
+.downNav{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: gray;
+    justify-content: center;
+    font-size: 135%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#menu{
+    display: none;
+}
+
+#close{
+    display: none;
+}
+
+@media(max-width:800px)
+{
+
+    #menu {
+        display: inline-block;
+        font-size: 230%;
+    }
+
+   #close {
+        display: block;
+        font-size: 190%;
+        margin-left: 70%;
+    }
+
+   .navigationItems{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 50vh;
+        top: 0;
+        right: 100%;
+        width: 100vw;
+        background-color: #d2d1ce;
+        z-index: 1000;
+        align-items: center;
+        font-size: 120%;
+        border-radius: 25px;
+   }
+
+   .rightNav {
+    justify-content: end;
+   }
+   
+   .heroContainer {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.heroContainer {
+        display: flex;
+        width: 100vw;
+        height: 90vh;
+        flex-direction: column;
+    }
+
+   .leftHero {
+        height: 60%;
+        background-image: url(websitePic/section1Girl.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+
+    .rightHero {
+    width: 100vw;
+    height: 25%;
+}
+
+ .HireMe:hover{
+    background-color: black;
+}
+
+  .topHero {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Irish Grover', cursive;
+    width: 100vw;
+    margin-top: 13%;
+    font-size: 164%;
+}
+
+.downHero {
+    height: 40%;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    font-family: 'Irish Grover', cursive;
+    margin-top: 9%;
+    width: 100vw;
+}
+
+/* section1 */
+
+.section1{
+height: 100vh;
+}
+
+ /* projectcounter */
+
+.clientProjectsCounts {
+    height: 50vh;
+    margin-top: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counterSection{
+    height: 67vh;
+}
+
+.innerCounts {
+    height: 100%;
+    width: 88%;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.header {
+    font-size: 197%;
+    margin-top: 2%;
+}
+
+#ProjectDone {
+    font-size: 500%;
+}
+
+#happyClientServed {
+    font-size: 500%;
+}
+
+#creativeDesignDelivered {
+    font-size: 500%;
+}
+
+.countBox {
+    width: 100%;
+}
+
+.section2{
+    height: 120vh;
+}
+
+.aboutMeContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.paraH {
+   margin-top: 0;
+}
+
+.para {
+    width: 100%;
+}
+
+.section2MainPara {
+    height: 85%;
+    width: 80%;
+    font-size: 93%;
+}
+
+.pic {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section3{
+    height: 250vh;
+}
+
+.galleryPhotos {
+    height: 80vh;
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 29px;
+    background-color: #ddd8d8;
+    grid-auto-rows: 43%;
+    grid-gap: 29px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* review section */
+
+.ReviewContainer {
+    width: 89%;
+   
+}
+
+.swiper-container{
+    width: 111%;
+    font-size: 84%;
+}
+
+.section5{
+    margin-top: 34%;
+}
+
+.faqContainer {
+    width: 80%;
+    font-size: 87%;
+    margin: auto;
+}
+
+.section6{
+    margin-top: 37%;
+}
+
+.picMan {
+    display: none;
+}
+
+.form {
+    width: 100%;
+}
+
+.section6p-1 {
+    font-family: 'Irish Grover', cursive;
+    font-size: 109%;
+    margin: 9% 3%;
+}
+
+.contactContainer {
+    height: 42vh;
+}
+  }

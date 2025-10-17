@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Hrisikesh Gogoi",
+    "stars": 5,
+    "text": "It is a long established fact that a reader will be distracted by readable content of a page.",
+    "image": "websitePic/me4.jpg"
+  },
+  {
+    "name": "Riya Sharma",
+    "stars": 3,
+    "text": "Amazing experience! Totally recommend this service.",
+    "image": "websitePic/section1Girl.png"
+  },
+  {
+    "name": "Arjun Mehta",
+    "stars": 5,
+    "text": "Incredible quality and fast delivery. Loved the results!",
+    "image": "images/arjun.jpg"
+},
+{
+    "name": "Arjun Mehta",
+    "stars": 5,
+    "text": "Incredible quality and fast delivery. Loved the results!",
+    "image": "images/arjun.jpg"
+},
+{
+    "name": "Arjun Mehta",
+    "stars": 5,
+    "text": "Incredible quality and fast delivery. Loved the results!",
+    "image": "images/arjun.jpg"
+},
+{
+    "name": "Arjun Mehta",
+    "stars": 5,
+    "text": "Incredible quality and fast delivery. Loved the results!",
+    "image": "images/arjun.jpg"
+},
+{
+    "name": "Arjun Mehta",
+    "stars": 5,
+    "text": "Incredible quality and fast delivery. Loved the results!",
+    "image": "images/arjun.jpg"
+}
+]
