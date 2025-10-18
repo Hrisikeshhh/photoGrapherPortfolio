@@ -720,6 +720,7 @@ height: 100vh;
 
 .counterSection{
     height: 67vh;
+    font-size: 85%;
 }
 
 .innerCounts {
