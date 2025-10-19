@@ -810,14 +810,16 @@ height: 100vh;
    
 }
 
-.swiper-container{
-    width: 111%;
-    font-size: 84%;
-}
 
 .swiper-wrapper{
     font-size: 80%;
 }
+
+.swiper-container {
+        width: 116%;
+        height: 73%;
+        font-size: 111%;
+    }
 
 .section5{
     margin-top: 34%;

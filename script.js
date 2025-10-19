@@ -137,12 +137,13 @@ var swiper = new Swiper(".mySwiper", {
     });
      
 
+      // mobile
 let mobile = gsap.matchMedia();
 
 mobile.add("(max-width:800px)",()=>{
 let menu = document.querySelector("#menu");
 let close = document.querySelector("#close");
-
+let tl1 = gsap.timeline();
 
 let tl = gsap.timeline();
 tl.to(".navigationItems",{
@@ -166,6 +167,12 @@ menu.addEventListener("click",()=>{
 
 close.addEventListener("click",()=>{
     tl.reverse();
+})
+
+tl1.from(".a",{
+   y:100,
+   stagger:0.3
+
 })
 
 })
@@ -382,7 +389,9 @@ gsap.from(".m",{
   }
 })
 
-
+return(()=>{
+  tl2.kill();
+})
 
 
 })
