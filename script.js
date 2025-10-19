@@ -228,7 +228,7 @@ tl1.from(".e",{
     scroller:"body",
     trigger:".e",
     scrub:2,
-    start:"top 80%",
+    start:"top 75%",
     end:"top 60%",
   }
 })
