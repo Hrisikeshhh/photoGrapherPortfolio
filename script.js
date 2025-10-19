@@ -175,6 +175,20 @@ tl1.from(".a",{
 
 })
 
+gsap.from(".b",{
+  y:50,
+  stagger:0.2,
+  opacity:0,
+  // duration:0.4,
+  scrollTrigger:{
+    scroller:"body",
+    trigger:".b",
+    scrub:2,
+    start:"top 75%",
+    end:"top 55%",
+  }
+})
+
 })
 
 
