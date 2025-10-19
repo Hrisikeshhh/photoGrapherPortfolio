@@ -313,7 +313,82 @@ opacity:0,
   }
 })
 
+tl1.from(".x",{
+opacity:0,
+ scrollTrigger:{
+    scroller:"body",
+    trigger:".x",
+    scrub:2,
+    start:"top 80%",
+    end:"top 55%",
+  }
+})
 
+tl1.from(".h",{
+  y:80,
+  opacity:0,
+  // duration:0.4,
+  scrollTrigger:{
+    scroller:"body",
+    trigger:".h",
+    scrub:2,
+    start:"top 90%",
+    end:"top 70%",
+  }
+})
+
+tl1.from(".i",{
+  y:80,
+  stagger:0.3,
+  opacity:0,
+  scrollTrigger:{
+    scroller:"body",
+    trigger:".i",
+    scrub:2,
+    start:"top 95%",
+    end:"top 80%"
+  }
+})
+
+tl1.from(".j",{
+  y:80,
+  stagger:0.3,
+  opacity:0,
+  scrollTrigger:{
+    scroller:"body",
+    trigger:".j",
+    scrub:2,
+    start:"top 95%",
+    end:"top 80%"
+  }
+})
+
+gsap.from(".l",{
+  scale:0.5,
+  opacity:0,
+  // duration:0.4,
+  scrollTrigger:{
+    scroller:"body",
+    trigger:".l",
+    scrub:2,
+    start:"top 90%",
+    end:"top 70%",
+  }
+})
+  
+gsap.from(".m",{
+  y:100,
+  scale:0.5,
+  opacity:0,
+  // duration:0.4,
+  scrollTrigger:{
+    scroller:"body",
+    trigger:".m",
+    scrub:2,
+    start:"top 90%",
+    end:"top 70%",
+  }
+})
 
 })
 
