@@ -273,36 +273,36 @@ font-size: 700%;
 }
 
 .pic1{
-    background-image: url(websitePic/aboutMepic.png);
+    background-image: url(thumbnailPhotos/pic1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .pic2{
-    background-image: url(websitePic/section1Girl.png);
+    background-image: url(thumbnailPhotos/pic2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .pic3{
-    background-image: url(websitePic/jpg.jpeg);
+    background-image: url(thumbnailPhotos/pic3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .pic4{
-    background-image: url(websitePic/tower.jpg);
+    background-image: url(thumbnailPhotos/pic4.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .pic5{
-    background-image: url(websitePic/me4.jpg);
+    background-image: url(thumbnailPhotos/pic5.jpg);
     background-size: cover;
     background-position: center;
 }
 .pic6{
-    background-image: url(websitePic/chicken.png);
+    background-image: url(thumbnailPhotos/pic6.jpg);
      background-size: cover;
     background-position: center;
 }
