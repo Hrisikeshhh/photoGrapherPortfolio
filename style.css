@@ -13,6 +13,7 @@ body{
 nav{
    display: flex;
    height: 10vh;
+   width: 100vw;
 }
 
 .leftNav{
@@ -87,7 +88,7 @@ nav{
 
 .section1H3-2{
   font-size: 55%;
-  margin-left: 51%;
+  margin-left: 27%;
   margin-top: 15%;
 }
 .HireMe{
