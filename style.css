@@ -852,6 +852,10 @@ height: 100vh;
 .contactContainer {
     height: 42vh;
 }
+
+.remove{
+    display: none;
+}
   }
 
   @media(min-width:360px ) and (max-width:395px){
