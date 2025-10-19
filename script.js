@@ -189,6 +189,52 @@ gsap.from(".b",{
   }
 })
 
+
+tl1.from(".paraH",{
+  y:80,
+  opacity:0,
+  // duration:0.4,
+  scrollTrigger:{
+    scroller:"body",
+    trigger:".paraH",
+    scrub:2,
+    start:"top 90%",
+    end:"top 70%",
+  }
+})
+
+
+tl1.from(".section2MainPara",
+  {
+    y:50,
+    opacity:0,
+    scale:0.5,
+    scrollTrigger:{
+    scroller:"body",
+    trigger:".section2MainPara",
+    scrub:2,
+    start:"top 90%",
+    end:"top 60%",
+  }
+  }
+)
+
+tl1.from(".e",{
+  y:80,
+  opacity:0,
+  delay:0.5,
+  // duration:0.4,
+  scrollTrigger:{
+    scroller:"body",
+    trigger:".e",
+    scrub:2,
+    start:"top 80%",
+    end:"top 60%",
+  }
+})
+
+
+
 })
 
 
