@@ -233,6 +233,86 @@ tl1.from(".e",{
   }
 })
 
+tl1.from(".f",{
+  y:80,
+  opacity:0,
+  // duration:0.4,
+  scrollTrigger:{
+    scroller:"body",
+    trigger:".f",
+    scrub:2,
+    start:"top 90%",
+    end:"top 70%",
+  }
+})
+
+tl1.from(".animeOne",{
+opacity:0,
+ scrollTrigger:{
+    scroller:"body",
+    trigger:".animeOne",
+    scrub:2,
+    start:"top 80%",
+    end:"top 55%",
+  }
+  
+})
+
+tl1.from(".animeTwo",{
+opacity:0,
+ scrollTrigger:{
+    scroller:"body",
+    trigger:".animeTwo",
+    scrub:2,
+    start:"top 80%",
+    end:"top 55%",
+  }
+})
+
+tl1.from(".animeThree",{
+opacity:0,
+ scrollTrigger:{
+    scroller:"body",
+    trigger:".animeThree",
+    scrub:2,
+    start:"top 80%",
+    end:"top 55%",
+  }
+})
+
+tl1.from(".animeFour",{
+opacity:0,
+ scrollTrigger:{
+    scroller:"body",
+    trigger:".animeFour",
+    scrub:2,
+    start:"top 80%",
+    end:"top 55%",
+  }
+})
+
+tl1.from(".animeFive",{
+opacity:0,
+ scrollTrigger:{
+    scroller:"body",
+    trigger:".animeFive",
+    scrub:2,
+    start:"top 80%",
+    end:"top 55%",
+  }
+})
+
+tl1.from(".animeSix",{
+opacity:0,
+ scrollTrigger:{
+    scroller:"body",
+    trigger:".animeSix",
+    scrub:2,
+    start:"top 80%",
+    end:"top 55%",
+  }
+})
+
 
 
 })
