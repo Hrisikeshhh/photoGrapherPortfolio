@@ -663,7 +663,7 @@ footer{
     }
 
     .rightHero {
-    width: 100vw;
+    width: 100%;
     height: 25%;
 }
 
@@ -700,7 +700,7 @@ footer{
     justify-content: center;
     font-family: 'Irish Grover', cursive;
     margin-top: 9%;
-    width: 100vw;
+    width: 100%;
 }
 
 /* section1 */
@@ -817,7 +817,7 @@ height: 100vh;
 }
 
 .swiper-container {
-        width: 116%;
+        width: 111%;
         height: 73%;
         font-size: 90%;
     }
