@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: #f4f4f0;
+}
+
+nav{
+   display: flex;
+   height: 10vh;
+}
+
+.leftNav{
+    width: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Irish Grover',cursive;
+    font-size: 261%;
+    background-image: url(websitePic/section1Girl.png);
+}
+
+.rightNav{
+ width: 64%;
+ align-items: center;
+ display: flex;
+ font-size: 105%;
+ background-image: url(websitePic/section1Girl.png);
+ font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+ box-shadow: 3px 15px 65px #b0a898;
+}
+
+.navigationItems{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navigationItems a{
+    color: black;
+    text-decoration: none;
+}
+
+.section1{
+     font-family: 'Irish Grover',cursive;
+     width: 80%;
+     margin: auto;
+     margin-top: 3%;
+}
+
+.albumContainer{
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.box{
+  border-radius: 16px;
+  padding-top: 19%;
+  font-size: 141%;
+  cursor: pointer;
+}
+
+.box:hover{
+    transform: translateY(-20px);
+    transition: 0.4s ease;
+}
+
+.pic1{
+    background-image: url(album/Beige\ Minimalist\ Scrapbook\ Birthday\ Photo\ Collage_20251020_084109_0000.png);
+    background-size: cover;
+    background-position: center;
+    color: #9b3131;
+}
+
+.pic2{
+    background-image: url(album/Studio\ Shoot\ Photo\ Collage_20251020_083105_0000.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.pic3{
+    background-image: url(album/Aesthetic\ Vintage\ Beach\ Photoshoot\ Inspiration\ Photo\ Collage\ Instagram\ Post_20251020_082209_0000.png);
+    background-size: cover;
+    background-position: center;
+    color: #9b3131;
+}
+
+.pic4{
+    background-image: url(album/Brown\ Collage\ Wine\ Photo\ Shoot\ Moadboard\ Poster_20251020_084820_0000.png);
+    background-size: cover;
+    background-position: center;
+    color: #9b3131;
+}
+
+.pic5{
+    background-image: url(album/Cute\ dog\ portraits\ photo\ collage_20251020_085222_0000.png);
+    background-size: cover;
+    background-position: center;
+    color: #e2be79;
+}
+
+.Pic1Thumb{
+    background-color: wheat;
+}
+
+.Pic2Thumb{
+    background-color: black;
+}
+
+.Pic3Thumb{
+background-color: white;
+}
+
+.Pic4Thumb{
+    background-color: white;
+}
+
+.Pic5Thumb{
+    background-color: white;
+}
+
+.pricingTag{
+      width: 80%;
+      font-family:'Irish Grover',cursive ;
+      margin: auto;
+      margin-top: 10%;
+    }
+
+.PricingContainer{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.priceBox{
+   width: 30%;
+    height: 83%;
+    background-color: #d8d8d4;
+    border-radius: 22px;
+    
+}
+
+footer{
+  height: 10vh;
+  background-color: #dcdcd4;
+  font-size: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.downNav{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: gray;
+    justify-content: center;
+    font-size: 135%;
+}
+
+
+
+
+

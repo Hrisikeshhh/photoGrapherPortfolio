@@ -1,5 +1,28 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
+// making divs buttons
+
+let portfolioBtn = document.querySelector("#PortfolioButton");
+
+portfolioBtn.addEventListener("click",()=>{
+  window.location.href = "album.html";
+})
+
+let viewMyWork = document.querySelector(".workBtn");
+viewMyWork.addEventListener("click",()=>{
+  window.location.href = "album.html";
+})
+
+let section6 = document.querySelector("#section6");
+
+let hireMe = document.querySelector(".HireMe");
+hireMe.addEventListener("click",()=>{
+  section6.scrollIntoView({
+    behavior:"smooth"
+  });
+});
+
+
 
 // client counter
 
@@ -16,7 +39,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         clearInterval(interval);
       }
       element.textContent = count;
-    }, 20); // update every 20ms
+    }, 20); // update every 20m
   }
 
 

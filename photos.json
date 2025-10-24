@@ -1,0 +1,19 @@
+[
+    {
+        "id":"weddingPhotoshoot",
+        "firstPara":"Wedding photoshoots",
+        "image1":"weddinPhotoshoots/Screenshot_2025-10-22-21-51-41-71_680d03679600f7af0b4c700c6b270fe7.jpg",
+        "image2":"weddinPhotoshoots/Screenshot_2025-10-22-21-52-05-01_680d03679600f7af0b4c700c6b270fe7.jpg"
+    },
+
+     {
+        "id":"EngagementPhotoshoot",
+        "firstPara":"Engagement Photoshoot",
+        "image1":"",
+        "image2":""
+    },
+    {
+        "id":"productShoots",
+        "firstPara":"Product photoshoot"
+    }
+]

@@ -887,3 +887,60 @@ height: 100vh;
 }
 
   }
+
+
+  @media (min-width:800px) and (max-width:1030px)
+{
+.leftNav {
+    width: 53%;
+}
+
+.leftHero {
+    width: 45%;
+}
+
+.topHero {
+    font-size: 163%;
+    margin-top: 22%;
+}
+
+.clientProjectsCounts{
+    font-size: 70%;
+}
+
+.aboutMeContainer {
+    height: 70vh;
+}
+
+.photo {
+    height: 40%;
+}
+
+/* section3 */
+
+.section3
+{
+    height: 140vh;
+}
+
+.galleryPhotos {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* section5 */
+.section5{
+    margin-top: 25%;
+}
+
+.section6{
+    margin-top: 25%;
+}
+
+.picMan {
+    display: none;
+}
+
+.form {
+    width: 100%;
+}
+}
