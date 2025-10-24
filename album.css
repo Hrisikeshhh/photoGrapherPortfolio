@@ -172,6 +172,81 @@ footer{
     font-size: 135%;
 }
 
+#menu{
+    display: none;
+}
+
+#close{
+    display: none;
+}
+
+@media(max-width:800px)
+{
+
+    #menu {
+        display: inline-block;
+        font-size: 230%;
+    }
+
+   #close {
+        display: block;
+        font-size: 190%;
+        margin-left: 70%;
+    }
+
+   .navigationItems{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 50vh;
+        top: 0;
+        right: 100%;
+        width: 100vw;
+        background-color: #d2d1ce;
+        z-index: 1000;
+        align-items: center;
+        font-size: 120%;
+        border-radius: 25px;
+   }
+
+   .rightNav {
+    justify-content: end;
+   }
+
+   .albumContainer {
+    height: 64vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 24px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.box {
+    border-radius: 16px;
+    padding-top: 19%;
+    font-size: 107%;
+    cursor: pointer;
+}
+
+.PricingContainer {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.priceBox {
+    width: 73%;
+    height: 30%;
+    background-color: #d8d8d4;
+    border-radius: 22px;
+}
+   
+}
+
 
 
 
