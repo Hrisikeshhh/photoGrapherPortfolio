@@ -124,3 +124,59 @@ body {
   font-size: 80%;
 }
 
+#menu{
+    display: none;
+}
+
+#close{
+    display: none;
+}
+
+@media(max-width:800px)
+{
+
+    #menu {
+        display: inline-block;
+        font-size: 230%;
+    }
+
+   #close {
+        display: block;
+        font-size: 190%;
+        margin-left: 70%;
+    }
+
+   .navigationItems{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 50vh;
+        top: 0;
+        right: 100%;
+        width: 100vw;
+        background-color: #d2d1ce;
+        z-index: 1000;
+        align-items: center;
+        font-size: 120%;
+        border-radius: 25px;
+   }
+
+   .rightNav {
+    justify-content: end;
+   }
+
+
+   .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.photosRelated {
+    margin: auto;
+    width: 80%;
+    font-size: 100%;
+    margin-top: 8%;
+    font-family: 'Irish Grover', cursive;
+}
+  }
